@@ -5,7 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Desenvolvimento para Internet (Kanban)</title>
 </head>
+<style>
+    body{
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        padding: 18px;
+    }
+
+    input[type="text"]{
+        border-radius: 8px;
+        padding: 10px;
+        margin: 0;
+        border: 1px solid gray;
+        min-width: 220px;
+    }
+
+    select{
+        border-radius: 8px;
+        padding: 10px 36px 10px 10px;
+        border: 1px solid gray;
+        background-color: #fff;
+        background-size: 10px;
+        cursor: pointer;
+    }
+
+    button{
+        padding: 10px 14px;
+        border-radius: 8px;
+        border: none;
+        background-color: #2b90ff;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    h1{
+        text-align: center;
+    }
+</style>
+        <div class="container">
+            <h1>Quadro de tarefas</h1>
+            <header>
+                
+                <input type="text" placeholder="Título da tarefa..." id="tituloTarefa">
+                <select id="tarefaPrioridade">
+                    <option value="baixa">Baixa</option>
+                    <option value="media">Média</option>
+                    <option value="alta">Alta</option>
+                </select>
+                <button onclick="adicionarTarefa()">Adicionar</button>
+            </header>
+        </div>
 <body>
-    
+    <script>
+    </script>
 </body>
 </html>
