@@ -13,14 +13,15 @@ header h1{
 .colunas{
     margin: 10px;
     width: 200px;
-    border: 1px solid #c7c6c6;
+    border: 1px solid #999;
     border-radius: 10px;
-    background-color: rgb(255, 255, 255);
+    background-color: lightgray;
+
     display: flex;
     flex-direction: column;
+
     max-height: 70vh;
     height: 30vh;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.13);
 }
 
 .area-cards{
@@ -32,7 +33,7 @@ header h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     text-align: center;
-    background-color: rgb(145, 187, 243);
+    background-color: rgb(146, 188, 243);
     border-radius: 10px 10px 0 0;
 }
 

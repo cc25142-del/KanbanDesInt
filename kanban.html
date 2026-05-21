@@ -24,7 +24,7 @@
         </select>
 
         <button type="submit">Adicionar</button>
-        <button type="button" onclick="fecharForm('fecharForm')">✕</button>
+        <button type="button" id="fecharForm">✕</button>
     </form>
 
     <div class="kanban">
@@ -37,7 +37,7 @@
 
             <div id="afazer" class="area-cards"></div>
 
-            <button class="btn-mais" onclick="abrirFormulario()">
+            <button class="btn-mais" onclick="abrirFormulario('a-fazer')">
                 +
             </button>
 
@@ -51,7 +51,7 @@
 
             <div id="progresso" class="area-cards"></div>
 
-            <button class="btn-mais" onclick="abrirFormulario()">
+            <button class="btn-mais" onclick="abrirFormulario('fazendo')">
                 +
             </button>
 
@@ -65,7 +65,7 @@
 
             <div id="concluido" class="area-cards"></div>
 
-            <button class="btn-mais" onclick="abrirFormulario()">
+            <button class="btn-mais" onclick="abrirFormulario('concluido')">
                 +
             </button>
 
