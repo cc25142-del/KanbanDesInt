@@ -31,6 +31,7 @@ header h1{
 
 #faixaazul{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
     font-size: 15px;
     text-align: center;
     background-color: blue;
@@ -41,7 +42,8 @@ header h1{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
-    background-color: yellow;
+    color:aliceblue;
+    background-color: rgb(241, 241, 183);
     border-radius: 10px 10px 0 0;
 }
 
@@ -49,6 +51,7 @@ header h1{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
+    color: aliceblue;
     background-color: green;
     border-radius: 10px 10px 0 0;
 }
@@ -94,7 +97,7 @@ form select {
 
 form button{
     margin: 10px 6px 0;
-    width: 95px;
+    width: 100px;
     height: 28px;
     border-radius: 5px;
     background-color: #7878d1;
