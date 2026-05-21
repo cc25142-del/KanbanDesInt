@@ -1,4 +1,7 @@
-let tarefas = [titulo = "", prioridade = "", status = ""];
+let tarefas = [
+{ titulo: "", prioridade: "", status: "" }
+];
+
 const form = document.getElementById("formtaf");
 
 function abrirFormulario() {
