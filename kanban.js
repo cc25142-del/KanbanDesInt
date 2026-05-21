@@ -11,6 +11,35 @@ const colAfazer    = document.getElementById("afazer");
 const colProgresso = document.getElementById("progresso");
 const colConcluido = document.getElementById("concluido");
 
+colAfazer.addEventListener("click", handleClickColuna);
+colProgresso.addEventListener("click", handleClickColuna);
+colConcluido.addEventListener("click", handleClickColuna);
+
+function handleClickColuna(e) {
+
+    const btn = e.target.closest("button");
+
+    if (!btn)
+        return;
+
+    if (btn.classList.contains("btn-avancar")) {
+        avancarStatus(Number(btn.dataset.id));
+    }
+
+    else if (btn.classList.contains("btn-excluir")) {
+        excluirTarefa(Number(btn.dataset.id));
+    }
+}
+
+function abrirFormulario(status) {
+
+    statusPendente = status;
+
+    form.style.display = "flex";
+
+    inputTitulo.focus();
+}
+
 btnFechar.addEventListener("click", () => {
 
     form.style.display = "none";
