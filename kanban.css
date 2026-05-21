@@ -33,7 +33,7 @@ header h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     text-align: center;
-    background-color: blue;
+    background-color: rgb(146, 188, 243);
     border-radius: 10px 10px 0 0;
 }
 
@@ -49,7 +49,7 @@ header h1{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
-    background-color: green;
+    background-color: rgb(202, 245, 202);
     border-radius: 10px 10px 0 0;
 }
 
