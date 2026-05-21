@@ -14,6 +14,7 @@ header h1{
     margin: 10px;
     width: 200px;
     border: 1px solid #999;
+    
     border-radius: 10px;
     background-color: lightgray;
 
@@ -41,7 +42,7 @@ header h1{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
-    background-color: rgb(241, 241, 183);
+    background-color: rgb(252, 252, 57);
     border-radius: 10px 10px 0 0;
 }
 
