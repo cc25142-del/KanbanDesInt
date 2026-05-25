@@ -296,4 +296,5 @@ function excluirTarefa(id) {
 }
 
 // chama a funcao pra mostrar as tarefas quando a pagina carrega
+
 mostrarTarefas();
