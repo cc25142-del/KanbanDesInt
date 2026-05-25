@@ -188,6 +188,7 @@ function criarCard(tarefa) {
         background-color: ${corDaBorda};
         display: inline-block;
         margin-bottom: 8px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     `;
 
     // div dos botoes
@@ -216,6 +217,7 @@ function criarCard(tarefa) {
             color: white;
             border: none;
             cursor: pointer;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         `;
 
         divBotoes.appendChild(botaoAvancar);
@@ -237,6 +239,7 @@ function criarCard(tarefa) {
         color: white;
         border: none;
         cursor: pointer;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     `;
 
     divBotoes.appendChild(botaoExcluir);
