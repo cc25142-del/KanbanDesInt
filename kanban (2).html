@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadro de Tarefas</title>
+    <link rel="stylesheet" href="kanban.css">
+</head>
+
+<body>  
+
+    <header>
+        <h1>Quadro de Tarefas</h1>
+    </header>
+
+    <div class="modal-overlay" id="overlay">
+        <form id="formtaf">
+            <input type="text" id="titulo" placeholder="Nova Tarefa">
+            <select id="prioridade">
+                <option value="alta">Alta</option>
+                <option value="media">Média</option>
+                <option value="baixa">Baixa</option>
+            </select>
+            <button type="submit">Adicionar</button>
+            <button type="button" id="fecharForm">✕</button>
+        </form>
+    </div>
+
+    <div class="kanban">
+
+        <div class="colunas">
+
+            <div id="faixaazul">
+                <h2>A Fazer</h2>
+            </div>
+
+            <div id="afazer" class="area-cards"></div>
+
+            <button class="btn-mais" onclick="abrirFormulario('a-fazer')">
+                +
+            </button>
+
+        </div>
+
+        <div class="colunas">
+
+            <div id="faixaamarela">
+                <h2>Em Progresso</h2>
+            </div>
+
+            <div id="progresso" class="area-cards"></div>
+
+            <button class="btn-mais" onclick="abrirFormulario('fazendo')">
+                +
+            </button>
+
+        </div>
+
+        <div class="colunas">
+
+            <div id="faixaverde">
+                <h2>Concluído</h2>
+            </div>
+
+            <div id="concluido" class="area-cards"></div>
+
+            <button class="btn-mais" onclick="abrirFormulario('concluido')">
+                +
+            </button>
+
+        </div>
+
+    </div>
+
+<script src="kanban.js"></script>
+
+</body>
+
+</html>
